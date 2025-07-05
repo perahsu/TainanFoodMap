@@ -1,0 +1,80 @@
+body {
+    font-family: "微軟正黑體", Bebas Neue, sans-serif;
+    background-color: #F2E6E6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:#CF9E9E;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "源樣明體", Bebas Neue;
+    color: #804040;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+section a {
+    font-family: "微軟正黑體";
+    color: #804040;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.custom-nav {
+  background-color: #CF9E9E;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.custom-nav .nav-link,
+.custom-nav {
+  color: white !important;
+}
+
+/* 滑鼠移上去的時候也保持白色或更亮 */
+.custom-nav .nav-link:hover,
+.custom-nav {
+  color: #fdf2f2 !important;
+}
